@@ -20,12 +20,12 @@ TextureImporter:
     21300026: dorm-tiles_13
     21300028: dorm-tiles_14
     21300030: dorm-tiles_15
-  serializedVersion: 4
+  serializedVersion: 2
   mipmaps:
     mipMapMode: 0
     enableMipMap: 1
-    sRGBTexture: 1
     linearTexture: 0
+    correctGamma: 0
     fadeOut: 0
     borderMipMap: 0
     mipMapFadeDistanceStart: 1
@@ -37,8 +37,10 @@ TextureImporter:
     normalMapFilter: 0
   isReadable: 0
   grayScaleToAlpha: 0
-  generateCubemap: 6
+  generateCubemap: 0
   cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
   seamlessCubemap: 0
   textureFormat: -3
   maxTextureSize: 2048
@@ -49,44 +51,22 @@ TextureImporter:
     wrapMode: 1
   nPOTScale: 0
   lightmap: 0
+  rGBM: 0
   compressionQuality: 50
-  spriteMode: 1
+  allowsAlphaSplitting: 0
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spritePixelsToUnits: 1
-  alphaUsage: 1
   alphaIsTransparency: 1
-  spriteTessellationDetail: -1
   textureType: 8
-  textureShape: 1
-  maxTextureSizeSet: 0
-  compressionQualitySet: 0
-  textureFormatSet: 0
-  platformSettings:
-  - buildTarget: DefaultTexturePlatform
-    maxTextureSize: 2048
-    textureFormat: -1
-    textureCompression: 0
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-  - buildTarget: Standalone
-    maxTextureSize: 2048
-    textureFormat: 4
-    textureCompression: 0
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 1
+  buildTargetSettings: []
   spriteSheet:
-    serializedVersion: 2
     sprites:
-    - serializedVersion: 2
-      name: dorm-tiles_0
+    - name: dorm-tiles_0
       rect:
         serializedVersion: 2
         x: 1
@@ -97,9 +77,7 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: dorm-tiles_1
+    - name: dorm-tiles_1
       rect:
         serializedVersion: 2
         x: 19
@@ -110,9 +88,7 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: dorm-tiles_2
+    - name: dorm-tiles_2
       rect:
         serializedVersion: 2
         x: 37
@@ -123,9 +99,7 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: dorm-tiles_3
+    - name: dorm-tiles_3
       rect:
         serializedVersion: 2
         x: 55
@@ -136,9 +110,7 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: dorm-tiles_4
+    - name: dorm-tiles_4
       rect:
         serializedVersion: 2
         x: 73
@@ -149,9 +121,7 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: dorm-tiles_5
+    - name: dorm-tiles_5
       rect:
         serializedVersion: 2
         x: 91
@@ -162,9 +132,7 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: dorm-tiles_6
+    - name: dorm-tiles_6
       rect:
         serializedVersion: 2
         x: 109
@@ -175,9 +143,7 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: dorm-tiles_7
+    - name: dorm-tiles_7
       rect:
         serializedVersion: 2
         x: 127
@@ -188,9 +154,7 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: dorm-tiles_8
+    - name: dorm-tiles_8
       rect:
         serializedVersion: 2
         x: 1
@@ -201,9 +165,7 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: dorm-tiles_9
+    - name: dorm-tiles_9
       rect:
         serializedVersion: 2
         x: 19
@@ -214,9 +176,7 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: dorm-tiles_10
+    - name: dorm-tiles_10
       rect:
         serializedVersion: 2
         x: 37
@@ -227,9 +187,7 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: dorm-tiles_11
+    - name: dorm-tiles_11
       rect:
         serializedVersion: 2
         x: 55
@@ -240,9 +198,7 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: dorm-tiles_12
+    - name: dorm-tiles_12
       rect:
         serializedVersion: 2
         x: 73
@@ -253,9 +209,7 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: dorm-tiles_13
+    - name: dorm-tiles_13
       rect:
         serializedVersion: 2
         x: 91
@@ -266,9 +220,7 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: dorm-tiles_14
+    - name: dorm-tiles_14
       rect:
         serializedVersion: 2
         x: 109
@@ -279,9 +231,7 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: dorm-tiles_15
+    - name: dorm-tiles_15
       rect:
         serializedVersion: 2
         x: 127
@@ -292,9 +242,8 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
     outline: []
-  spritePackingTag: Sprites
+  spritePackingTag: 
   userData: 
   assetBundleName: 
   assetBundleVariant: 
